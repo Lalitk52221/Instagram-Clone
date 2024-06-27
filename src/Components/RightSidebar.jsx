@@ -3,7 +3,7 @@ import { Story_user_data } from "./Constants/StoriesUserData";
 
 const RightSidebar = () => {
   return (
-    <div className="flex flex-col p-5 min-w-[250px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-300 h-full overflow-hidden">
+    <div className="flex hidden md:flex flex-col p-5 min-w-[250px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-300 h-full overflow-hidden">
       <div className="mt-4 flex flex-row justify-center items-center">
         <img src={profile} alt="profile" className=" h-10 rounded-full" />
         <div className="text-lg font-semibold px-3 justify-center items-start flex flex-col">

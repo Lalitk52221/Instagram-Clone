@@ -5,7 +5,7 @@ import { LuLogOut } from "react-icons/lu";
 
 const Leftsidebar = () => {
   return (
-    <div className="text-white w-64 h-full items-center flex flex-col border-r">
+    <div className="text-white w-64 h-full items-center flex flex-col border-r hidden md:flex">
       <img src={logo_black} alt="logo" width={180} className="p-3 mt-6" />
       <div className="flex flex-col gap-4 list-none mt-10 text-xl font-semibold ">
         {NAV_LINKS_DATA.map((navlink, index) => (

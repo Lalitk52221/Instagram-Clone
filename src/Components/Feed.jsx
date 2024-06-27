@@ -18,7 +18,7 @@ const Feed = () => {
         }
     }
   return (
-    <section className="h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-300 ">
+    <section className="h-full p-3 overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-300 ">
       <div className=" overflow-hidden max-w-[960px] overflow-x-scroll">
         <Stories />
       </div>
