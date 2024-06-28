@@ -6,6 +6,7 @@ const Story = ({ avatar, isWatched, username }) => {
     <div>
       <div className="flex flex-col items-center justify-center gap-2">
         <img
+        loading="lazy"
           src={avatar}
           width={60}
           alt="story"
